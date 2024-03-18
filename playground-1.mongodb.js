@@ -14,7 +14,7 @@ db.users.insertOne(
 
 // Ingresar datos de forma masiva
 db.users.insertMany([
-     {
+    {
         nombre: 'John',
         apellido: 'Gomez',
         correo: 'example@example.com',
@@ -122,5 +122,5 @@ db.users.find(
     [
         {edad:{$gt: 20}}, // Mayor que
         {edad:{$lt: 30}} // Menor que
-    ]
+    ] 
     });
